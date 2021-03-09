@@ -1,0 +1,24 @@
+*{
+box-sizing: border-box;
+}
+body{
+    background-color: #1a1a1a;
+}
+#chess{
+    width:802px;
+    display: flex;
+    flex-wrap:wrap;
+    margin:auto;
+    border: solid 1px black;
+}
+
+.case{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 235, 214);
+}
+.caseNoire{
+    width: 100px;
+    height: 100px;
+    background-color: #658130;
+}
